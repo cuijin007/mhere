@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007de7"
+    tools:context=".MainActivity"
+     >
+
+
+	<TextView
+	    android:id="@+id/login_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="#00d3dc"
+	    android:gravity="center"
+	    android:textSize="28dp"
+	    android:text="LOG IN"
+	    
+	     >
+	    
+	</TextView>
+    
+	    <Button
+        android:id="@+id/login_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Login" 
+        />
+	    
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/login_name"
+        android:layout_marginTop="31dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPassword" 
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="\@gmail.com" 
+        
+        />
+
+
+
+</RelativeLayout>
